@@ -1,0 +1,87 @@
+
+/*-----------------------右边浮动商务通样式----------------------------*/
+*{ margin:0; padding:0;}
+ul{ list-style:none;}
+a{ text-decoration:none;}
+a img{border:none;}
+img{border:none;}
+.clear{clear:both;}
+ul li{list-style:none;}
+body{font-family:"微软雅黑"; border-bottom-color:#FFFFFF}
+.swt-right-index{ width:131px; height: 411px; position:fixed; right:-84px; top:18%;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+200));z-index:10000;}
+.swt-right-index ul{}
+.swt-right-index li{ width:131px; height:57px; line-height:0px; line-height:0px; font-size:0px; position:absolute;}
+.swt-right-index a{ width:131px;}
+.swt-right-index1{top:59px;}
+.swt-right-index1 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) no-repeat;}
+.swt-right-index1 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) no-repeat;}
+.swt-right-index2{ top:118px;}
+.swt-right-index2 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -49px no-repeat;}
+.swt-right-index2 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -49px no-repeat;}
+.swt-right-index3{top:177px;}
+.swt-right-index3 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -98px no-repeat;}
+.swt-right-index3 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -98px no-repeat;}
+.swt-right-index4{ top:236px}
+.swt-right-index4 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -147px no-repeat;}
+.swt-right-index4 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -147px no-repeat;}
+.swt-right-index5{ top:295px;}
+.swt-right-index5 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -196px no-repeat;}
+.swt-right-index5 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -196px no-repeat;}
+.swt-right-index6{ bottom:0px;}
+.swt-right-index6 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -245px no-repeat;}
+.swt-right-index6 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -245px no-repeat;}
+.swt-right-index7{ top:0px;}
+.swt-right-index7 a{height:49px; display:block; background:url(../images/swt-right-pic1.jpg) 0px -294px no-repeat;}
+.swt-right-index7 .swt-hover{ height:49px; background:url(../images/swt-right-pic2.jpg) 0px -294px no-repeat;}
+
+
+.swtswt {
+background: url(../images/swt-center-mllm.jpg) no-repeat 0 0;
+}
+
+
+/**微信滚动条**/
+.qrcode{
+	-webkit-animation-name: qrcode;
+    -moz-animation-name: qrcode;
+    -o-animation-name: qrcode;
+    animation-name: qrcode;
+	
+	-webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+	
+	-webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@-moz-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@-o-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}

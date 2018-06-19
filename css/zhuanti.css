@@ -1,0 +1,72 @@
+/* CSS Document */
+
+
+
+header{ width:100%; height:119px; background:#3E3A39; padding-top:28px;}
+
+.logo{ float:left; margin-top:12px; width:355px;}
+
+.cont{ width:650px; float:left;}
+
+.cont ul{ padding:0 22px}
+
+.cont ul li{ float:left; margin:0 15px;}
+
+.rx{ float:right; margin-top:12px;}
+
+nav{ width:100%; height:76px; background:#C0A062;}
+
+nav ul{ width:920px; margin:0 auto; height:76px; line-height:76px;}
+
+nav li{ float:left; padding:0 15px; color:#efefef}
+
+nav li a{ font-size:16px; color:#efefef}
+
+.warpper {height: auto;margin: 0 auto;overflow: hidden;width: 1280px;}
+
+.indexfoot{width:100%; height:300px; background-color:#2b2b2d;}
+
+.indexfootkd{width:1180px; height:300px; margin:0 auto}
+
+.foottp1{width:172px; height:300px; float:left}
+
+.foottp2{width:5px; height:300px; float:left; margin-left:33px}
+
+.foottp3 {width:598px; height:300px; float:left}
+
+.foottp3 dl{width:90px; height:187px; float:left; margin-top:46px; margin-left:25px}
+
+.foottp3 dl dt{ width:90px; height:30px; background:url(../images/qwewqewq.jpg) no-repeat 14px 24px; text-align:center}
+
+.foottp3 dl dt a{ color:#c9c9c9; font-size:14px}
+
+.foottp3 dl dd{ width:90px; height:16px; margin-top:10px; text-align:center; line-height:13px}
+
+.foottp3 dl dd a{color:#c9c9c9; font-size:13px}
+
+.foottp3 dl dd a:hover{color:#83cac7}
+
+.foottp4{width:5px; height:300px; float:left;}
+
+.foottp5{width:302px; height:187px; float:left; margin-left:65px; margin-top:46px}
+
+.foowxt{width:302px; height:125px; float:left}
+
+.foowxt p{ width:125px; height:125px; float:left}
+
+.foowxt dl{width:177px; height:125px; float:left; }
+
+.foowxt dl dt{color:#c9c9c9; font-size:19px; text-align:center; height:37px}
+
+.foowxt dl dd{width:177px; height:125px; float:left;color:#c9c9c9; font-size:13px;  height:24px; margin-left:12px}
+
+.footzt{color:#c9c9c9; font-size:14px; float:left; margin-top:25px}
+
+.footerbq{width:100%; height:60px; background-color:#151515}
+
+.footerbq p{width:1133px; height:60px; text-align:center; color:#c9c9c9; font-size:13px; margin:0 auto; line-height:60px;}
+
+
+
+
+

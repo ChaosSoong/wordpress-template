@@ -1,0 +1,456 @@
+.nav{
+    height: 80px;
+}
+.left{
+    margin-left: 200px;
+    height: 80px;
+    float: left;
+}
+.right{
+    margin-left: 80px;
+    float: left;
+}
+.right ul li{
+    line-height: 80px;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    width: 80px;
+}
+.right ul li a{
+    color: white;
+}
+.lbzx{
+    position: relative;
+    height: 300px;
+    background-color: #0a2742;
+    width: 500px;
+    margin-left: -90px;
+}
+.contbox{
+    width: 100% !important;
+}
+.container{
+    margin:0 auto;
+    width: 70%;
+    min-width: 1328px;
+    height: 530px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    box-shadow: 5px 2px 2px #eaeaea;
+}
+.container2{
+    margin:0 auto;
+    width: 70%;
+    min-width: 1328px;
+    height: 430px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    box-shadow: 5px 2px 2px #eaeaea;
+}
+.ltdimg1 a img{
+    margin-top: -20px;
+}
+.ltdimg2 a img{
+    margin-top: -9px;
+}
+.container .contleft{
+    width: 45%;
+    float: left;
+}
+.container .contleft .img img{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.container .contleft .img span{
+    margin-left: 25px;
+    width: 30px;
+    height: 20px;
+    background: url(../images/btn-more.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.container .contright{
+    width: 45%;
+    float: right;
+}
+.container .contright .img img{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.container .contright .img span{
+    margin-left: 200px;
+    background: url(../images/btn-more.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.content table{
+    margin:0 auto;
+}
+.border{
+    margin-top: 10px;
+    margin-left: 60px;
+    width:87%;
+    height:1px;
+    background:rgba(204,204,204,1);
+
+}
+.border2{
+    margin-top: 10px;
+    margin-left: 60px;
+    width:480px;
+    height:1px;
+    background:rgba(204,204,204,1);
+
+}
+.container .shuxian{
+    float: left;
+    height: 100%;
+    border: 1px dashed #e0e0e0;
+    margin-left: 5%;
+}
+.container .lthimg1{
+    width: 160px;
+    height: 97px;
+}
+.container .lthimg2{
+    width: 160px;
+    height: 104px;
+    font-size: 5px;
+    text-align: left;
+}
+.container .ltdimg1{
+    width: 160px;
+    height: 104px;
+}
+.container .ltdimg2{
+    width: 160px;
+    height: 97px;
+}
+.more{
+    cursor: pointer;
+    margin:0 auto;
+    width: 120px;
+    height: 50px;
+    background-image: url(../images/more.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.rthimg1{
+    width: 160px;
+    height: 210px;
+}
+.rthimg2{
+    width: 160px;
+    height: 210px;
+}
+.container2 .contleft{
+    width: 55%;
+    float: left;
+}
+.container2 .contright{
+    width: 44%;
+    float: left;
+    margin-top: 82px;
+}
+.container2 .contleft .img img{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.container2 .contleft .content{
+    display: flex;
+    flex-direction: row;
+}
+.container2 .contleft .content .table11{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.table11 .title{
+    width: 354px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 26px;
+    background-image: url(../images/icon-bizi.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.table22 .title{
+    width: 354px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 26px;
+    background-image: url(../images/icon-zhifang.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.container2 .contleft .content .table22{
+    flex: 1;
+}
+.content-table{
+    display: flex;
+    flex-direction: row;
+}
+.content-table .left-table{
+    margin-top: 5px;
+    flex: 1;
+    position: relative;
+    height: 270px;
+}
+/*综合鼻塑性*/
+.content-table .left-table .spanzhbsx{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: #EDE7DE;
+    width: 134px;
+    height: 131px;
+}
+.content-table .left-table .spanzhbsx a{
+    color: #A0814E;
+    margin-top: 35px;
+    display: block;
+}
+/*注射隆鼻*/
+.content-table .left-table .spanzslb{
+    position: absolute;
+    left: 139px;
+    top: 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: #F6F3EE;
+    width: 215px;
+    height: 78px;
+}
+.content-table .left-table .spanzslb a{
+    color: #A0814E;
+    margin-top: 28px;
+    display: block;
+}
+/*鼻型矫正*/
+.content-table .left-table .spanbxjz{
+    position: absolute;
+    left: 139px;
+    top: 83px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #F6F3EE;
+    width: 105px;
+    height: 104px;
+}
+.content-table .left-table .spanbxjz a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+/*鼻翼整形*/
+.content-table .left-table .spanbyzx{
+     position: absolute;
+     left: 249px;
+     top: 83px;
+     font-size: 22px;
+     text-align: center;
+     background-color: #E4DBCD;
+     width: 105px;
+     height: 104px;
+ }
+.content-table .left-table .spanbyzx a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+/*假体隆鼻*/
+.content-table .left-table .spanjtlb{
+     position: absolute;
+     left: 0;
+     top: 136px;
+     font-size: 24px;
+     text-align: center;
+     background-color: #E4DBCD;
+     width: 134px;
+     height: 131px;
+ }
+.content-table .left-table .spanjtlb a{
+    color: #A0814E;
+    margin-top: 35px;
+    display: block;
+}
+/*鼻头矫正*/
+.content-table .left-table .spanbtjz{
+     position: absolute;
+     left: 139px;
+     top: 192px;
+     font-size: 24px;
+     text-align: center;
+     background-color: #EDE7DE;
+     width: 215px;
+     height: 76px;
+ }
+.content-table .left-table .spanbtjz a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+.content-table .right-table{
+    margin-left: 10px;
+    margin-top: 5px;
+    flex: 1;
+    position: relative;
+    height: 270px;
+}
+/*自体脂肪丰额头*/
+.content-table .right-table .ztzf1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E4DBCD;
+    width: 194px;
+    height: 107px;
+}
+.content-table .right-table .ztzf1 a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+/*自体脂肪丰taiyangxue*/
+.content-table .right-table .ztzf2{
+    position: absolute;
+    left: 199px;
+    top: 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: #F6F3EE;
+    width: 155px;
+    height: 107px;
+}
+.content-table .right-table .ztzf2 a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+/*自体脂肪chuzhou*/
+.content-table .right-table .ztzf3{
+    position: absolute;
+    left: 0;
+    top: 112px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #EDE7DE;
+    width: 194px;
+    height: 71px;
+}
+.content-table .right-table .ztzf3 a{
+    color: #A0814E;
+    margin-top: 25px;
+    display: block;
+}
+/*自体脂肪丰xiong*/
+.content-table .right-table .ztzf4{
+    position: absolute;
+    left: 199px;
+    top: 112px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E4DBCD;
+    width: 155px;
+    height: 155px;
+}
+.content-table .right-table .ztzf4 a{
+    color: #A0814E;
+    margin-top: 48px;
+    display: block;
+}
+/*自体脂肪丰tun*/
+.content-table .right-table .ztzf5{
+    position: absolute;
+    left: 0;
+    top: 188px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #EDE7DE;
+    width: 81px;
+    height: 82px;
+}
+.content-table .right-table .ztzf5 a{
+    color: #A0814E;
+    margin-top: 20px;
+    display: block;
+}
+/*自体脂肪丰longbi*/
+.content-table .right-table .ztzf6{
+    position: absolute;
+    left: 86px;
+    top: 188px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #F6F3EE;
+    width: 108px;
+    height: 82px;
+}
+.content-table .right-table .ztzf6 a{
+    color: #A0814E;
+    margin-top: 20px;
+    display: block;
+}
+.quanwei{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 271px;
+}
+.footer .fheader{
+    height: 30px;
+    line-height: 30px;
+}
+.footer .fheader .span1{
+    margin-left: 240px;
+    color: #C09858;
+    font-size: 16px;
+}
+.footer .fheader .span2{
+    margin-left: 180px;
+    color: #C09858;
+    font-size: 16px;
+}
+.footer .fheader .span3{
+    margin-left: 150px;
+    color: #C09858;
+    font-size: 16px;
+}
+.footer .fcontent .left1 ul li{
+    margin-top: 5px;
+    margin-left:240px;
+    color: #e0e0e0;
+}
+.footer .fcontent .left2 ul li{
+    margin-top: 5px;
+    margin-left:150px;
+    color: #e0e0e0;
+}
+.footer .fcontent .left3 ul li{
+    margin-top: 5px;
+    margin-left:150px;
+    color: #e0e0e0;
+}
+.left4, .left3, .left2, .left1{
+    float: left;
+}
+.left1 ul li  a{color: #e0e0e0;}.left2 ul li  a{color: #e0e0e0;}.left3 ul li  a{color: #e0e0e0;}
+.left1 ul li  a:hover{color: #c09858;}.left2 ul li  a:hover{color: #c09858;}.left3 ul li  a:hover{color: #c09858;}
+.ffooter{
+    width: 100%;
+    margin: 0 auto;
+}
+.msn-focus .hd {
+    margin-top: 10px;
+}
